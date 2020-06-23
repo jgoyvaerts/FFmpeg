@@ -1,3 +1,10 @@
+Xenia version of FFmpeg
+=======================
+
+* If you want to update FFmpeg, make changes to the config_xy.h and/or change the premake files please use a rebase strategy.
+* Do not change the config headers directly but only use the `./configure` script (use rebase to get to point where they where originally generated so the script can run successfully, then amend).
+The old command line options used are at the top of the config headers.
+
 FFmpeg README
 =============
 
